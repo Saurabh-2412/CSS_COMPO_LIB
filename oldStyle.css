@@ -3,7 +3,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Montserrat;
 }
 
 /* Layout - Grid implementation */
@@ -454,7 +453,7 @@ body {
 /* Buttons */
 
 .btn {
-  /* outline: none; */
+  outline: none;
   margin: 0.25rem;
   padding: 0.5rem 1rem;
   border: 1px solid transparent;
@@ -630,7 +629,7 @@ ion-icon {
   margin: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  max-width: 20rem;/*288px*/
+  max-width: 288px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -1032,11 +1031,4 @@ ion-icon {
   bottom: 5rem;
   right: 3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-iframe{
-  width: 100%;
-  border:0; 
-  transform: scale(1); 
-  overflow:hidden;
 }
